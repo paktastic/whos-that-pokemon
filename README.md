@@ -16,7 +16,7 @@ convert images to PNG:
 Pokemon EDA:
   python notebook that plots the number of images on each class so we can see how many files there are and how many each class has
 
-model set up:
+Initial model set up:
   contains the datagen for training and validation files
   sets up the hyper parameter search for the initial model
     saves the hyper parameters to a file directory
@@ -24,11 +24,14 @@ model set up:
     plots the history of the runs
   includes a small prediction section to test the model
   
+CNN Hyperparameter tuning 
+  contains the hyperparameter search for the final CNN model
+    saves the hyperparameters to a file directory
+  
  model set up advanced CNN96:'
   python notebook
   contains the datagen for training and validation files
-  sets up the hyper parameters for the final 96x96 CNN
-    saves the hyper parameters to a file directory
+  sets up the model according to the hyperparameter search
   runs the model and saves the history to a csv
     plots the history of the runs
     saves the best model according to validation data
